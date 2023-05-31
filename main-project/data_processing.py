@@ -96,11 +96,11 @@ class HandDetector:
 
 
 # setup directory
-folder_hand_path = "F:\\Projects\\vietnamese_hand_sign-main\\classes"
-output_folder_hand_path = "F:\\Projects\\vietnamese_hand_sign-main\\classes_image"
-output_folder_bone_path = "F:\\Projects\\vietnamese_hand_sign-main\\classes_bone"
-output_folder_point_path = "F:\\Projects\\vietnamese_hand_sign-main\\classes_point"
-done_folder_path = "F:\\Projects\\vietnamese_hand_sign-main\\done"
+folder_hand_path = "vietnamese_hand_sign\\classes"
+output_folder_hand_path = "vietnamese_hand_sign\\classes_image"
+output_folder_bone_path = "vietnamese_hand_sign\\classes_bone"
+output_folder_point_path = "vietnamese_hand_sign\\classes_point"
+done_folder_path = "vietnamese_hand_sign\\done"
 
 
 for folder in os.listdir(folder_hand_path):
